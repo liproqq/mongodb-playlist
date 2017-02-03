@@ -21,7 +21,6 @@ describe("Finding records", function(){
 
     MarioChar.findOne({name: "Mario"}).then(function(result){
       assert(result.name === "Mario");
-      console.log(result);
       done();
     });
   });
